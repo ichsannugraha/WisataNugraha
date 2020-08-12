@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Aplikasi pencarian tempat wisata di kota bandung adalah sebuah aplikasi yang di gunakan untuk mencari tempat wisata di kota bandung aplikasi ini menggunakan google api sebagai tempat untuk mencari lokasi tempat wisata dan di dalam aplikasi ini terdapat gambar yg di sediakan untuk mempermudah pengunjung melihat gambaran dari tempat wisata yang akan mereka tuju."
+        android:layout_margin="5dp"/>
+
+
+</LinearLayout>

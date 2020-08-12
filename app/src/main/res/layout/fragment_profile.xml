@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageUser"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/profile_pict"
+                android:layout_gravity="center"
+                android:layout_marginTop="55dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:textSize="14sp"
+                android:lineHeight="14sp"
+                android:textStyle="normal"
+                android:fontFamily="Roboto"
+                android:textColor="#000000"
+                android:layout_marginTop="57dp"
+                android:layout_marginLeft="31dp"/>
+
+            <EditText
+                android:id="@+id/nimUser"
+                android:text="10117267"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginRight="23dp"
+                android:editable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAMA"
+                android:textSize="14sp"
+                android:lineHeight="14sp"
+                android:textStyle="normal"
+                android:fontFamily="Roboto"
+                android:textColor="#000000"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="31dp"/>
+
+            <EditText
+                android:id="@+id/namaUser"
+                android:text="Ichsan Nugraha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginRight="23dp"
+                android:editable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KELAS"
+                android:textSize="14sp"
+                android:lineHeight="14sp"
+                android:textStyle="normal"
+                android:fontFamily="Roboto"
+                android:textColor="#000000"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="31dp"/>
+
+            <EditText
+                android:id="@+id/kelasUser"
+                android:text="IF-8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginRight="23dp"
+                android:editable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL"
+                android:textSize="14sp"
+                android:lineHeight="14sp"
+                android:textStyle="normal"
+                android:fontFamily="Roboto"
+                android:textColor="#000000"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="31dp"/>
+
+            <EditText
+                android:id="@+id/emailUser"
+                android:text="nugraha.ichsan99@gmail.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginRight="23dp"
+                android:editable="false"
+                android:layout_marginBottom="30dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

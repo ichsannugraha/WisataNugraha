@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Untuk menggunakan aplikasi, anda cukup klik nama tempat wisata pada home untuk melihat detail tempat wisata tersebut."
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
